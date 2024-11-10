@@ -11,16 +11,24 @@
         <div id="search-container">
             <label for="search-input">Search for Pokémon Name or ID:</label>
             <div id="search-and-button-container">
-                <input id="search-input" required>
+                <input id="search-input" type="text" placeholder="Enter Pokémon name or ID" required>
                 <button id="search-button" type="button">Search</button>
             </div>
         </div>
         <div id="pokemon-container">
-<!--            pokemon will show here when searched for-->
-            <p id="pokemon-name"></p>
-            <p id="pokemon-id"></p>
-            <p id="weight"></p>
-            <p id="height"></p>
+<!--        pokemon will show here when searched for-->
+            <div id="name-container">
+                <p id="pokemon-name"></p>
+                <p id="pokemon-id"></p>
+            </div>
+            <div id="weight-and-height-container">
+                <p id="weight"></p>
+                <p id="height"></p>
+            </div>
+            <div id="sprite-container">
+<!--            pokemon sprite will appear here-->
+                <img src="" alt="Pokemon Sprite" id="pokemon-sprite" style="display: none">
+            </div>
             <p id="types"></p>
         </div>
         <div id="pokemon-stats-container">
