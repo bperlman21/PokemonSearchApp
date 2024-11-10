@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f19ef200-185f-4dd9-89a1-ab7d28263a5a" name="Changes" comment="updated JS to fetch pokemon API and fill out info and stats appropriately">
+    <list default="true" id="f19ef200-185f-4dd9-89a1-ab7d28263a5a" name="Changes" comment="updated CSS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <workItem from="1731015384275" duration="7481000" />
       <workItem from="1731087800010" duration="5725000" />
       <workItem from="1731179527498" duration="1254000" />
-      <workItem from="1731190592770" duration="12989000" />
+      <workItem from="1731190592770" duration="13424000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -145,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731203147225</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated CSS">
+      <option name="closed" value="true" />
+      <created>1731206144815</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731206144815</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +166,7 @@
     <MESSAGE value="table changes" />
     <MESSAGE value="attempting to fetch pokemon api (starting WIP)" />
     <MESSAGE value="updated JS to fetch pokemon API and fill out info and stats appropriately" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated JS to fetch pokemon API and fill out info and stats appropriately" />
+    <MESSAGE value="updated CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated CSS" />
   </component>
 </project>

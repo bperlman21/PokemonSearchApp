@@ -23,6 +23,11 @@ async function getData() {
             throw new Error(`Response status: ${response.status}`);
         }
 
+        if (searchInput.value === "") {
+            alert("Please enter a valid Pokémon Name or ID.");
+            return;
+        }
+
         const json = await response.json();
         console.log(json);
 
