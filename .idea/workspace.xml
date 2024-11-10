@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f19ef200-185f-4dd9-89a1-ab7d28263a5a" name="Changes" comment="added alert if search value was empty">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="f19ef200-185f-4dd9-89a1-ab7d28263a5a" name="Changes" comment="bug fixes and added a better solution for displaying the Pokemon's types" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +83,7 @@
       <workItem from="1731015384275" duration="7481000" />
       <workItem from="1731087800010" duration="5725000" />
       <workItem from="1731179527498" duration="1254000" />
-      <workItem from="1731190592770" duration="18730000" />
+      <workItem from="1731190592770" duration="19044000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -169,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731206534498</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bug fixes and added a better solution for displaying the Pokemon's types">
+      <option name="closed" value="true" />
+      <created>1731211943276</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1731211943276</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +189,7 @@
     <MESSAGE value="updated JS to fetch pokemon API and fill out info and stats appropriately" />
     <MESSAGE value="updated CSS" />
     <MESSAGE value="added alert if search value was empty" />
-    <option name="LAST_COMMIT_MESSAGE" value="added alert if search value was empty" />
+    <MESSAGE value="bug fixes and added a better solution for displaying the Pokemon's types" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fixes and added a better solution for displaying the Pokemon's types" />
   </component>
 </project>
