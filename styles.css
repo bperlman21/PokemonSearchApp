@@ -57,14 +57,46 @@ h1 {
     display: flex;
     flex-direction: column;
     min-height: 325px;
-    padding: 10px;
+    width: 100%;
+    padding: 16px;
 }
 
 #pokemon-stats-container {
+    display: flex;
+    flex-direction: column;
     color: white;
     width: 100%;
     min-height: 325px;
     line-height: 1.5;
+}
+
+#name-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#pokemon-name {
+    text-transform: uppercase;
+}
+
+#weight-and-height-container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+#sprite-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pokemon-sprite {
+    width: 240px;
+    height: 240px;
 }
 
 th, td {

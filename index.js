@@ -19,6 +19,7 @@ async function getData() {
     try {
         const response = await fetch(url);
         if (!response.ok) {
+            alert("Please enter a valid Pokémon Name or ID.");
             throw new Error(`Response status: ${response.status}`);
         }
 
@@ -38,7 +39,7 @@ async function getData() {
         pokemonHeight.innerHTML = `Height: ${height}`;
 
         const type = json.types[0].type.name;
-        pokemonType.innerHTML = type;
+        pokemonType.innerHTML = `Type: ${type}`;
 
         const sprite = json.sprites.front_default;
         pokemonSprite.src = sprite;
