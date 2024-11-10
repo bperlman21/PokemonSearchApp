@@ -19,16 +19,20 @@ async function getData() {
     try {
         const response = await fetch(url);
         if (!response.ok) {
-            alert("Please enter a valid Pokémon Name or ID.");
+            alert("Pokémon not found");
             throw new Error(`Response status: ${response.status}`);
         }
 
         if (searchInput.value === "") {
             alert("Please enter a valid Pokémon Name or ID.");
             return;
+        } else if (!searchInput.value) {
+            alert("Pokémon not found");
+            return;
         }
 
-        const json = await response.json();
+
+            const json = await response.json();
         console.log(json);
 
         const name = json.name;
@@ -43,8 +47,16 @@ async function getData() {
         const height = json.height;
         pokemonHeight.innerHTML = `Height: ${height}`;
 
-        const type = json.types[0].type.name;
-        pokemonType.innerHTML = `Type: ${type}`;
+        // const types = json.types.map(typeInfo => typeInfo.type.name).join(', ');
+        // pokemonType.innerHTML = `Types: ${types}`;
+
+        pokemonType.innerHTML = '';
+
+        json.types.forEach(typeInfo => {
+            const typeElement = document.createElement('div'); // Create a new div for each type
+            typeElement.textContent = typeInfo.type.name.toUpperCase(); // Set text to type name in uppercase
+            pokemonType.appendChild(typeElement); // Append each type div to the #types container
+        });
 
         const sprite = json.sprites.front_default;
         pokemonSprite.src = sprite;
